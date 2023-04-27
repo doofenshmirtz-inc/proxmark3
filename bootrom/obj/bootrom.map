@@ -1,0 +1,421 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+                              obj/usb_cdc.o (__gnu_thumb1_case_uqi)
+/opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+                              obj/flashmem.o (__aeabi_uidiv)
+/opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+                              obj/flashmem.o (__aeabi_idiv)
+/opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+                              /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+                              obj/usb_cdc.o (__aeabi_llsr)
+/opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+                              obj/bootrom.o (__aeabi_ulcmp)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj/version_pm3.o
+ .data          0x00000000        0x0 obj/version_pm3.o
+ .bss           0x00000000        0x0 obj/version_pm3.o
+ .text          0x00000000        0x0 obj/ram-reset.o
+ .data          0x00000000        0x0 obj/ram-reset.o
+ .bss           0x00000000        0x0 obj/ram-reset.o
+ .text          0x00000000        0x0 obj/flash-reset.o
+ .data          0x00000000        0x0 obj/flash-reset.o
+ .bss           0x00000000        0x0 obj/flash-reset.o
+ .text          0x00000000        0x0 obj/usb_cdc.o
+ .data          0x00000000        0x0 obj/usb_cdc.o
+ .bss           0x00000000        0x0 obj/usb_cdc.o
+ .text.SetUSBreconnect
+                0x00000000        0xc obj/usb_cdc.o
+ .text.GetUSBreconnect
+                0x00000000        0xc obj/usb_cdc.o
+ .text.SetUSBconfigured
+                0x00000000        0xc obj/usb_cdc.o
+ .text.GetUSBconfigured
+                0x00000000        0xc obj/usb_cdc.o
+ .text.usb_poll
+                0x00000000       0x28 obj/usb_cdc.o
+ .text.usb_read_ng
+                0x00000000      0x100 obj/usb_cdc.o
+ .bss.usb_read_ng_buflen
+                0x00000000        0x4 obj/usb_cdc.o
+ .bss.usb_read_ng_bufoff
+                0x00000000        0x4 obj/usb_cdc.o
+ .bss.usb_read_ng_buffer
+                0x00000000       0x40 obj/usb_cdc.o
+ .bss.usb_configured
+                0x00000000        0x4 obj/usb_cdc.o
+ .bss.usb_reconnect
+                0x00000000        0x4 obj/usb_cdc.o
+ .text          0x00000000        0x0 obj/clocks.o
+ .data          0x00000000        0x0 obj/clocks.o
+ .bss           0x00000000        0x0 obj/clocks.o
+ .text.mck_from_pll_to_slck
+                0x00000000       0x28 obj/clocks.o
+ .text          0x00000000        0x0 obj/bootrom.o
+ .data          0x00000000        0x0 obj/bootrom.o
+ .bss           0x00000000        0x0 obj/bootrom.o
+ .text          0x00000000        0x0 obj/flashmem.o
+ .data          0x00000000        0x0 obj/flashmem.o
+ .bss           0x00000000        0x0 obj/flashmem.o
+ .text.FlashSendLastByte
+                0x00000000       0x12 obj/flashmem.o
+ .text          0x00000000        0x0 obj/ticks.o
+ .data          0x00000000        0x0 obj/ticks.o
+ .bss           0x00000000        0x0 obj/ticks.o
+ .data          0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .text          0x00000000      0x148 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .debug_frame   0x00000000       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .debug_line    0x00000000       0x73 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .debug_line_str
+                0x00000000      0x13c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .debug_info    0x00000000       0x45 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x00000000       0x21 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .debug_str     0x00000000      0x16e /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .bss           0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .data          0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+ .bss           0x00000000        0x0 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+bootphase1       0x00100000         0x00000200
+bootphase2       0x00100200         0x00001e00
+osimage          0x00102000         0x0007e000
+ram              0x00200000         0x0000ffe0
+stack            0x0020deb8         0x00002128
+commonarea       0x0020ffe0         0x00000020
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00002128                        stacksize = DEFINED (stacksize)?stacksize:0x2128
+                0x00000020                        commonareasize = 0x20
+                0x001001fc                        _bootphase1_version_pointer = ((ORIGIN (bootphase1) + LENGTH (bootphase1)) - 0x4)
+                0x00102000                        _osimage_entry = ORIGIN (osimage)
+                0x00100000                        _bootrom_start = ORIGIN (bootphase1)
+                0x00102000                        _bootrom_end = (ORIGIN (bootphase2) + LENGTH (bootphase2))
+                0x00100000                        _flash_start = ORIGIN (bootphase1)
+                0x00180000                        _flash_end = (ORIGIN (osimage) + LENGTH (osimage))
+                0x0020deb8                        _stack_start = ORIGIN (stack)
+                0x0020ffd8                        _stack_end = ((ORIGIN (ram) + LENGTH (ram)) - 0x8)
+
+.bootphase1     0x00100000      0x200
+ *(.startup)
+ .startup       0x00100000       0x70 obj/flash-reset.o
+                0x00100000                flashstart
+                0x00100070                        . = ALIGN (0x4)
+                0x00100070                        _version_information_start = .
+ *(.version_information)
+ .version_information
+                0x00100070       0x61 obj/version_pm3.o
+                0x00100070                g_version_information
+                0x000001fc                        . = (LENGTH (bootphase1) - 0x4)
+ *fill*         0x001000d1      0x12b 
+                0x001001fc        0x4 LONG 0x100070 _version_information_start
+
+.vfp11_veneer   0x00100200        0x0
+ .vfp11_veneer  0x00100200        0x0 linker stubs
+
+.v4_bx          0x00100200        0x0
+ .v4_bx         0x00100200        0x0 linker stubs
+
+.iplt           0x00100200        0x0
+ .iplt          0x00100200        0x0 obj/ram-reset.o
+
+.igot.plt       0x00100200        0x0
+ .igot.plt      0x00100200        0x0 obj/ram-reset.o
+
+.rel.dyn        0x00100200        0x0
+ .rel.iplt      0x00100200        0x0 obj/ram-reset.o
+
+.bootphase2     0x00200000     0x1260 load address 0x00100200
+ *(.startphase2)
+ .startphase2   0x00200000        0xc obj/ram-reset.o
+                0x00200000                ram_start
+ *(.text)
+ .text          0x0020000c       0x14 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+                0x0020000c                __gnu_thumb1_case_uqi
+ .text          0x00200020      0x114 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+                0x00200020                __udivsi3
+                0x00200020                __aeabi_uidiv
+                0x00200114                __aeabi_uidivmod
+ .text          0x00200134        0x4 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+                0x00200134                __aeabi_ldiv0
+                0x00200134                __aeabi_idiv0
+ .text          0x00200138       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+                0x00200138                __aeabi_llsr
+                0x00200138                __lshrdi3
+ .text          0x00200154       0x24 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+                0x00200154                __aeabi_ulcmp
+ *(.text.*)
+ .text.usb_update_serial
+                0x00200178       0x7c obj/usb_cdc.o
+                0x00200178                usb_update_serial
+ .text.usb_disable
+                0x002001f4       0x20 obj/usb_cdc.o
+                0x002001f4                usb_disable
+ .text.usb_enable
+                0x00200214       0x9c obj/usb_cdc.o
+                0x00200214                usb_enable
+ .text.AT91F_USB_SendData
+                0x002002b0       0xbc obj/usb_cdc.o
+                0x002002b0                AT91F_USB_SendData
+ .text.AT91F_USB_SendZlp
+                0x0020036c       0x4c obj/usb_cdc.o
+                0x0020036c                AT91F_USB_SendZlp
+ .text.AT91F_USB_SendStall
+                0x002003b8       0x4c obj/usb_cdc.o
+                0x002003b8                AT91F_USB_SendStall
+ .text.AT91F_CDC_Enumerate
+                0x00200404      0x310 obj/usb_cdc.o
+                0x00200404                AT91F_CDC_Enumerate
+ .text.usb_check
+                0x00200714       0x50 obj/usb_cdc.o
+                0x00200714                usb_check
+ .text.usb_poll_validate_length
+                0x00200764       0x34 obj/usb_cdc.o
+                0x00200764                usb_poll_validate_length
+ .text.usb_read
+                0x00200798       0x94 obj/usb_cdc.o
+                0x00200798                usb_read
+ .text.usb_write
+                0x0020082c      0x150 obj/usb_cdc.o
+                0x0020082c                usb_write
+ .text.mck_from_slck_to_pll
+                0x0020097c       0x40 obj/clocks.o
+                0x0020097c                mck_from_slck_to_pll
+ .text.reply_old.constprop.0.isra.0
+                0x002009bc       0x4c obj/bootrom.o
+ .text.flash_mode
+                0x00200a08      0x2cc obj/bootrom.o
+ .text.BootROM  0x00200cd4      0x13c obj/bootrom.o
+                0x00200cd4                BootROM
+ .text.FlashStop
+                0x00200e10       0x28 obj/flashmem.o
+                0x00200e10                FlashStop
+ .text.FlashSetup
+                0x00200e38       0xa0 obj/flashmem.o
+                0x00200e38                FlashSetup
+ .text.FlashSendByte
+                0x00200ed8       0x18 obj/flashmem.o
+                0x00200ed8                FlashSendByte
+ .text.Flash_ReadStat1
+                0x00200ef0       0x1c obj/flashmem.o
+                0x00200ef0                Flash_ReadStat1
+ .text.Flash_CheckBusy
+                0x00200f0c       0x4c obj/flashmem.o
+                0x00200f0c                Flash_CheckBusy
+ .text.FlashInit
+                0x00200f58       0x30 obj/flashmem.o
+                0x00200f58                FlashInit
+ .text.Flash_UniqueID
+                0x00200f88       0x7c obj/flashmem.o
+                0x00200f88                Flash_UniqueID
+ .text.StartCountUS
+                0x00201004       0x58 obj/ticks.o
+                0x00201004                StartCountUS
+ .text.StartTicks
+                0x0020105c       0x60 obj/ticks.o
+                0x0020105c                StartTicks
+ .text.GetTicks
+                0x002010bc       0x24 obj/ticks.o
+                0x002010bc                GetTicks
+ .text.WaitTicks
+                0x002010e0       0x1a obj/ticks.o
+                0x002010e0                WaitTicks
+ .text.WaitUS   0x002010fa       0x16 obj/ticks.o
+                0x002010fa                WaitUS
+ .text.StopTicks
+                0x00201110       0x14 obj/ticks.o
+                0x00201110                StopTicks
+ *(.eh_frame)
+ *(.glue_7)
+ .glue_7        0x00201124        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00201124        0x0 linker stubs
+ *(.rodata)
+ *(.rodata.*)
+ .rodata.StrMS_OSDescriptor
+                0x00201124       0x12 obj/usb_cdc.o
+ .rodata.StrProduct
+                0x00201136       0x14 obj/usb_cdc.o
+ .rodata.StrManufacturer
+                0x0020114a       0x1a obj/usb_cdc.o
+ .rodata.StrLanguageCodes
+                0x00201164        0x4 obj/usb_cdc.o
+ .rodata.bosDescriptor
+                0x00201168        0xc obj/usb_cdc.o
+ .rodata.cfgDescriptor
+                0x00201174       0x43 obj/usb_cdc.o
+ .rodata.devDescriptor
+                0x002011b7       0x12 obj/usb_cdc.o
+ *(.data)
+ *(.data.*)
+ *fill*         0x002011c9        0x3 
+ .data.line     0x002011cc        0x8 obj/usb_cdc.o
+ .data.StrSerialNumber
+                0x002011d4       0x32 obj/usb_cdc.o
+                0x002011d4                StrSerialNumber
+ .data.btReceiveBank
+                0x00201206        0x1 obj/usb_cdc.o
+ *(.ramfunc)
+ *fill*         0x00201207        0x1 
+ .ramfunc       0x00201208       0x2c obj/ticks.o
+                0x00201208                GetCountUS
+ *fill*         0x00201234        0x4 
+ .ramfunc.__stub
+                0x00201238       0x24 linker stubs
+                0x0020125c                        . = ALIGN (0x4)
+                0x00100200                        __bootphase2_src_start__ = LOADADDR (.bootphase2)
+                0x00200000                        __bootphase2_start__ = ADDR (.bootphase2)
+                0x00201260                        __bootphase2_end__ = (__bootphase2_start__ + SIZEOF (.bootphase2))
+
+.bss            0x00201260        0xc
+                0x00201260                        __bss_start__ = .
+ *(.bss)
+ *(.bss.*)
+ .bss.configured.0
+                0x00201260        0x1 obj/usb_cdc.o
+ .bss.btConfiguration
+                0x00201261        0x1 obj/usb_cdc.o
+ .bss.bootrom_unlocked
+                0x00201262        0x1 obj/bootrom.o
+                0x00201262                bootrom_unlocked
+ *fill*         0x00201263        0x1 
+ .bss.end_addr  0x00201264        0x4 obj/bootrom.o
+                0x00201264                end_addr
+ .bss.start_addr
+                0x00201268        0x4 obj/bootrom.o
+                0x00201268                start_addr
+                0x0020126c                        . = ALIGN (0x4)
+                0x0020126c                        __bss_end__ = .
+
+.commonarea     0x0020ffe0        0xf
+ *(.commonarea)
+ .commonarea    0x0020ffe0        0xf obj/bootrom.o
+                0x0020ffe0                g_common_area
+LOAD obj/version_pm3.o
+LOAD obj/ram-reset.o
+LOAD obj/flash-reset.o
+LOAD obj/usb_cdc.o
+LOAD obj/clocks.o
+LOAD obj/bootrom.o
+LOAD obj/flashmem.o
+LOAD obj/ticks.o
+LOAD /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a
+OUTPUT(obj/bootrom.elf elf32-littlearm)
+LOAD linker stubs
+
+.comment        0x00000000       0x12
+ .comment       0x00000000       0x12 obj/version_pm3.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012       0x13 obj/usb_cdc.o
+ .comment       0x00000012       0x13 obj/clocks.o
+ .comment       0x00000012       0x13 obj/bootrom.o
+ .comment       0x00000012       0x13 obj/flashmem.o
+ .comment       0x00000012       0x13 obj/ticks.o
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x2a obj/version_pm3.o
+ .ARM.attributes
+                0x0000002a       0x1a obj/ram-reset.o
+ .ARM.attributes
+                0x00000044       0x1a obj/flash-reset.o
+ .ARM.attributes
+                0x0000005e       0x2a obj/usb_cdc.o
+ .ARM.attributes
+                0x00000088       0x2a obj/clocks.o
+ .ARM.attributes
+                0x000000b2       0x2a obj/bootrom.o
+ .ARM.attributes
+                0x000000dc       0x2a obj/flashmem.o
+ .ARM.attributes
+                0x00000106       0x2a obj/ticks.o
+ .ARM.attributes
+                0x00000130       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x0000014c       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000168       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000184       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x000001a0       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+
+.debug_line     0x00000000      0x1a4
+ .debug_line    0x00000000       0x52 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .debug_line    0x00000052       0x67 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .debug_line    0x000000b9       0x4a /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x00000103       0x50 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .debug_line    0x00000153       0x51 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+
+.debug_line_str
+                0x00000000      0x144
+ .debug_line_str
+                0x00000000      0x13c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .debug_line_str
+                0x0000013c      0x13c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .debug_line_str
+                0x0000013c      0x13c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .debug_line_str
+                0x0000013c      0x13c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .debug_line_str
+                0x0000013c        0x8 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+                                0x138 (size before relaxing)
+
+.debug_info     0x00000000      0x115
+ .debug_info    0x00000000       0x2f /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .debug_info    0x0000002f       0x45 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .debug_info    0x00000074       0x39 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x000000ad       0x39 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .debug_info    0x000000e6       0x2f /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+
+.debug_abbrev   0x00000000       0xa3
+ .debug_abbrev  0x00000000       0x21 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .debug_abbrev  0x00000021       0x21 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00000042       0x1f /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x00000061       0x21 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x00000082       0x21 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+
+.debug_aranges  0x00000000       0xa0
+ .debug_aranges
+                0x00000000       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .debug_aranges
+                0x00000020       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000040       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000060       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000080       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+
+.debug_str      0x00000000      0x269
+ .debug_str     0x00000000      0x15e /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_thumb1_case_uqi.o)
+ .debug_str     0x0000015e       0x29 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
+                                0x171 (size before relaxing)
+ .debug_str     0x00000187       0x1c /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_dvmd_tls.o)
+                                0x164 (size before relaxing)
+ .debug_str     0x000001a3       0x17 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_lshrdi3.o)
+                                0x15f (size before relaxing)
+ .debug_str     0x000001ba       0xaf /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_aeabi_ulcmp.o)
+                                0x152 (size before relaxing)
+
+.debug_frame    0x00000000       0x20
+ .debug_frame   0x00000000       0x20 /opt/local/lib/gcc/arm-none-eabi/12.2.0/libgcc.a(_udivsi3.o)
